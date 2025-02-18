@@ -1,8 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Formatos estandarizados para procedimientos de soldadura: WPS, PQR Y WPQR',
+    Description:
+      'El componente formativo explica los formatos WPS, PQR y WPQR, esenciales en la soldadura para garantizar calidad y cumplimiento normativo. Describe variables del proceso como voltaje, amperaje y tipo de metal, además de condiciones controladas como uso de equipos y supervisión. Incluye criterios de calificación para soldadores, bibliografía técnica y un glosario con términos clave.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +37,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo:
+          'Formatos para evidenciar la calificación de soldadura y soldadores',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Variables del proceso de soldeo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Condiciones controladas',
+            hash: 't_1_2',
           },
         ],
       },

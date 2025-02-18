@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Formatos estandarizados para procedimientos de soldadura: WPS, PQR Y WPQR'
