@@ -21,7 +21,7 @@
             p.mb-0 Es indispensable que las empresas interventoras exijan al fabricante un dosier técnico que valide que tanto los procesos de soldadura como los soldadores están calificados. Este documento sirve como evidencia del cumplimiento de los requisitos legales y contractuales, asegurando la calidad de las juntas soldadas realizadas.
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-auto
+          .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/intro/2.svg", alt="alt")
 

@@ -53,19 +53,6 @@ export default {
           },
         ],
       },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
@@ -122,13 +109,78 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Amperaje',
+      significado:
+        'flujo de electrones entre el metal base y el electrodo, generando el calor necesario para la soldadura.',
+    },
+    {
+      termino: 'Calidad',
+      significado: 'cumplimiento inherente de los requisitos normativos.',
+    },
+    {
+      termino: 'Calor aportado',
+      significado:
+        'relación entre voltaje, amperaje y velocidad de avance que influye en la calidad de la soldadura.',
+    },
+    {
+      termino: 'Escoria',
+      significado:
+        'capa residual formada en el cordón de soldadura que debe limpiarse antes del siguiente pase.',
+    },
+    {
+      termino: 'Formato WPS',
+      significado:
+        'documento que especifica las variables esenciales para realizar una soldadura repetible y de calidad.',
+    },
+    {
+      termino: 'Metal de aporte',
+      significado:
+        'material metálico usado para rellenar y unir las piezas en el proceso de soldadura.',
+    },
+    {
+      termino: 'Posiciones de soldadura',
+      significado:
+        'configuración geométrica de las uniones que define cómo se aplican los cordones de soldadura.',
+    },
+    {
+      termino: 'Supervisión',
+      significado:
+        'actividad realizada por un experto en soldadura para guiar y garantizar la calidad en el proceso productivo.',
+    },
+    {
+      termino: 'Velocidad de avance',
+      significado:
+        'rapidez con la que el soldador avanza durante la ejecución del cordón de soldadura.',
+    },
+    {
+      termino: 'Voltaje',
+      significado:
+        'diferencia de potencial eléctrico entre la pinza de masa y la punta del electrodo durante la soldadura.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'American Petroleum Institute. (2015). Norma API 1104.',
+      link: '',
+    },
+    {
+      referencia:
+        'Asociación Americana de Soldadura. (2015). Formato Interactivo - WPQR.',
+      link: '',
+    },
+    {
+      referencia:
+        'Asociación Americana de Soldadura. (2015). Formato Interactivo - WPS; PQR.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sociedad Americana de Ingenieros Mecánicos. (2015). Código ASME Sección IX - Soldadura: Desarrollo y calificación de procedimientos y soldadores.',
+      link: '',
+    },
+    {
+      referencia:
+        'Solano Montaña, E. (2007). WPS ASME - Calificación y procedimiento de platina y tubería según ASME.',
       link: '',
     },
   ],
@@ -137,14 +189,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -152,9 +204,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          cargo: 'Experto temático',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -167,9 +225,10 @@ export default {
           centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Leyson Fabian Castaño Perez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Nombre responsable',

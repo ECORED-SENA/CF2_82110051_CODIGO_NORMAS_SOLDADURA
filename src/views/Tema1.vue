@@ -12,7 +12,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg
         p(data-aos="fade-up").mb-0 Los criterios normativos de los documentos de ingeniería relacionados con soldadura se simplifican al desarrollar formatos en los cuales se consignan los valores numéricos de los parámetros de soldadura. A continuación, se explican la estructura y uso de los formatos de especificación y calificación de procedimiento, así como la calificación de soldadores:
-      .col-lg-auto
+      .col-lg-auto.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema1/1.svg", alt="alt")
 
@@ -45,7 +45,7 @@
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
-        .tarjeta.bg-color-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
+        .tarjeta.bg-color-white.px-4.py-3.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
           SlyderA(tipo="b")
             .row.align-items-center.p-4.p-md-5
               .col-lg-7
@@ -133,12 +133,12 @@
 
 
     .bg-full-width.bg-fondo-2
-      .px-4.px-md-5.pb-md-3
+      .px-0.px-md-5.pb-md-3
 
         .carousel-bg
           .row.justify-content-center.align-items-center.mb-5
 
-            .col-lg-4
+            .col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema1/4.png', alt='')
 
