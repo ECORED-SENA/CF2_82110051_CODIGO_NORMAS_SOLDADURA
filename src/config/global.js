@@ -101,10 +101,34 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema:
+        'Formatos para evidenciar la calificación de soldadura y soldadores',
+      referencia: 'SENA. (2005). Calificación de Procedimientos y de Persona.',
+      tipo: 'Documento',
+      link: 'Anexo 1',
+    },
+    {
+      tema:
+        'Formatos para evidenciar la calificación de soldadura y soldadores',
+      referencia:
+        'Ely Ramirez. (2021). API 1104 Examen de certificacion AWS CWI parte C: Calificacion de soldadores. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=yoGkJq_ZO9Q&ab_channel=ElyRamirez',
+    },
+    {
+      tema: 'Variables del proceso de soldeo',
+      referencia:
+        'SOLDADORES EN LINEA ().CURSO SOLDADURA GMAW (MIG). [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=tGkqV0W0Fv8&ab_channel=SOLDADORESENLINEA',
+    },
+    {
+      tema: 'Condiciones controladas',
+      referencia:
+        'Intecap efi. (2022). La soldadura en atmosfera controlada. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Dz8_0RBgzCE&ab_channel=intecapefi',
     },
   ],
   glosario: [
@@ -230,25 +254,34 @@ export default {
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
-        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jaime Hernán Tejada LLano',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
