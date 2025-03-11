@@ -105,7 +105,7 @@ export default {
         'Formatos para evidenciar la calificación de soldadura y soldadores',
       referencia: 'SENA. (2005). Calificación de Procedimientos y de Persona.',
       tipo: 'Documento',
-      link: 'Anexo 1',
+      descarga: 'downloads/Anexo_1.pdf',
     },
     {
       tema:
@@ -120,8 +120,7 @@ export default {
       referencia:
         'SOLDADORES EN LINEA ().CURSO SOLDADURA GMAW (MIG). [Archivo de video] Youtube.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=tGkqV0W0Fv8&ab_channel=SOLDADORESENLINEA',
+      link: 'https://www.youtube.com/watch?v=tGkqV0W0Fy8',
     },
     {
       tema: 'Condiciones controladas',
