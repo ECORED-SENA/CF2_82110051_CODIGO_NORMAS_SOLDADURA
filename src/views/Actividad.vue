@@ -212,12 +212,12 @@ export default {
           texto:
             '¿Cuál es el equipo adecuado para soldadura con electrodo revestido?',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Equipo SMAW.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
@@ -231,8 +231,8 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Equipo SMAW.',
-              esCorrecta: true,
+              texto: 'Ninguna de las anteriores.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
