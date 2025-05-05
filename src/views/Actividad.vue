@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b>Objetivo:</b> Identificar los formatos estandarizados para procedimientos de soldadura, las variables del proceso de soldeo y las condiciones controladas.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,
